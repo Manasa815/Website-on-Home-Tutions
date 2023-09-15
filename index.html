@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home tutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            background-image: url('images/img.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .left{
+            position: absolute;
+            width:13%;
+            height: 70px;
+            margin-top: 4px;
+            top:7px;
+            left:2px;
+            
+            display: inline-block;
+        }
+        .middle{
+            display:block;
+            width:60%;
+            top:9px;
+            margin:9px auto; 
+            border:2px solid black;
+        
+          }
+        .right{
+            position: absolute;
+            width:10%;
+            height:30px;
+            right: 3px;
+            top:9px;
+    
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            
+        }
+        .navbar li a{
+            padding:34px;
+            text-decoration: none;
+        }
+        .navbar li a:hover ,.navbar li a.active{
+            color:rgb(255, 165, 127);
+            text-decoration: underline;
+        }
+        .left img{
+            width:50px;
+        }
+        
+        .btn{
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/img1.jpeg" alt="">
+            <div>smk tutions</div>
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="register.html">
+                <button class="btn">Register</button>
+            </a>   
+            <a href="login.html">
+                <button class="btn">Login</button>
+            </a>   
+        </div>
+    </header>
+    
+</body>
+</html>

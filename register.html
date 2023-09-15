@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 20px;
+            background-color: rgb(221, 231, 240);
+            background-repeat: no-repeat;
+            background-position: 400px 29px;
+           
+            background-image: url(https://play-lh.googleusercontent.com/uj0K0anP9BLOMVcX0vugkriA2VDg6RLflPqwILExZmCmYipsQX6IJigNs-fiMnJPLmiz);
+        }
+        h1{
+            top:0px;
+            background-color: rgb(221, 232, 240);
+        }
+        .container input{
+            margin:7px 5px;
+            padding:4px 5px;
+            margin-left:20px;
+        }
+        #age,#dob,#classs,#tutor,#male,#submit{
+            margin-left: 63px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h1><center>Welcome To Home Tutions</center></h1><br>
+        <div class="container">
+            <h2>Fill The Below Form:</h2>
+            First Name <input type="text" id="fname"><br>
+            Last Name <input type="text" id="lname"><br>
+            Parent Name <input type="text" id="pname"><br>
+            DOB <input type="date" id="dob"><br>
+            Age <input type="number" id="age"><br>
+            Gender <input type="radio" name="gender" id="male">Male <input type="radio" name="gender">Female<br>
+            Password <input type="password" id="password"><br>
+            Re Enter<input type="password" id="password"><br>
+            <br>
+            Class &nbsp;&nbsp;<select name="classs" id="classs">
+                <option value="cl">select yor class here</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select><br><br>
+            Tutor &nbsp;&nbsp;<select name="tutor" id="tutor">
+                <option value="tu">select yor tutor here</option>
+                <option value="1">Mr.Rohan[phd]</option>
+                <option value="2">Ms. Geeta[MBA[</option>
+                <option value="3">Ms.Anjali[Btech]</option>
+                <option value="4">Mr.Satish[MBA]</option>
+                <option value="5">Ms.Sowmya[Mtech]</option></select><br><br>
+            Required Months Of teaching <input type="number" id="months"><br>
+           
+         <input type="submit"value=Register id="submit">
+         &nbsp;&nbsp;Already user: <a href="login.html">Login here</a>
+        </div>
+        
+    </form>
+</body>
+</html>
